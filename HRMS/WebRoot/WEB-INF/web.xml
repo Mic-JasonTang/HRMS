@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+	<servlet-name>ImageServlet</servlet-name>
+	<servlet-class>com.jason.servlet.verificationCode.ImageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.jason.servlet.login.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>statisticsServlet</servlet-name>
+    <servlet-class>com.jason.servlet.statistics.statisticsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserListServlet</servlet-name>
+    <servlet-class>com.jason.ajax.servlet.dao.UserListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RoleListServlet</servlet-name>
+    <servlet-class>com.jason.ajax.servlet.dao.RoleListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LogListServlet</servlet-name>
+    <servlet-class>com.jason.ajax.servlet.dao.LogListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EmployeeShowServlet</servlet-name>
+    <servlet-class>com.jason.ajax.servlet.dao.EmployeeShowServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddAdminServlet</servlet-name>
+    <servlet-class>com.jason.ajax.servlet.dao.AddAdminServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>InsertAdminServlet</servlet-name>
+    <servlet-class>com.jason.servlet.dao.InsertAdminServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EmployeeListServlet</servlet-name>
+    <servlet-class>com.jason.ajax.servlet.dao.EmployeeListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BranchListServlet</servlet-name>
+    <servlet-class>com.jason.ajax.servlet.dao.BranchListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EducationListServlet</servlet-name>
+    <servlet-class>com.jason.ajax.servlet.dao.EducationListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RePubListServlet</servlet-name>
+    <servlet-class>com.jason.ajax.servlet.dao.RePubListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AttendanceListServlet</servlet-name>
+    <servlet-class>com.jason.ajax.servlet.dao.AttendanceListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>OverWorkListServlet</servlet-name>
+    <servlet-class>com.jason.ajax.servlet.dao.OverWorkListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EvectionListServlet</servlet-name>
+    <servlet-class>com.jason.ajax.servlet.dao.EvectionListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetUserNameServlet</servlet-name>
+    <servlet-class>com.jason.ajax.servlet.dao.GetUserNameServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdatePasswordServlet</servlet-name>
+    <servlet-class>com.jason.servlet.dao.UpdatePasswordServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>NewEmployeeIdServlet</servlet-name>
+    <servlet-class>com.jason.ajax.servlet.dao.NewEmployeeIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddEmployeeServlet</servlet-name>
+    <servlet-class>com.jason.servlet.dao.AddEmployeeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetBranchChargeName</servlet-name>
+    <servlet-class>com.jason.ajax.servlet.dao.GetBranchChargeName</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddBranchServlet</servlet-name>
+    <servlet-class>com.jason.servlet.dao.AddBranchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetBranchNameAndUserName</servlet-name>
+    <servlet-class>com.jason.ajax.servlet.dao.GetBranchNameAndUserName</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddEducationServlet</servlet-name>
+    <servlet-class>com.jason.servlet.dao.AddEducationServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+	<servlet-name>ImageServlet</servlet-name>
+	<url-pattern>/servlet/ImageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>statisticsServlet</servlet-name>
+    <url-pattern>/servlet/statisticsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserListServlet</servlet-name>
+    <url-pattern>/servlet/UserListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RoleListServlet</servlet-name>
+    <url-pattern>/servlet/RoleListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogListServlet</servlet-name>
+    <url-pattern>/servlet/LogListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EmployeeShowServlet</servlet-name>
+    <url-pattern>/servlet/EmployeeShowServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddAdminServlet</servlet-name>
+    <url-pattern>/servlet/AddAdminServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertAdminServlet</servlet-name>
+    <url-pattern>/servlet/InsertAdminServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EmployeeListServlet</servlet-name>
+    <url-pattern>/servlet/EmployeeListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BranchListServlet</servlet-name>
+    <url-pattern>/servlet/BranchListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EducationListServlet</servlet-name>
+    <url-pattern>/servlet/EducationListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RePubListServlet</servlet-name>
+    <url-pattern>/servlet/RePubListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AttendanceListServlet</servlet-name>
+    <url-pattern>/servlet/AttendanceListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OverWorkListServlet</servlet-name>
+    <url-pattern>/servlet/OverWorkListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EvectionListServlet</servlet-name>
+    <url-pattern>/servlet/EvectionListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetUserNameServlet</servlet-name>
+    <url-pattern>/servlet/GetUserNameServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdatePasswordServlet</servlet-name>
+    <url-pattern>/servlet/UpdatePasswordServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewEmployeeIdServlet</servlet-name>
+    <url-pattern>/servlet/NewEmployeeIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddEmployeeServlet</servlet-name>
+    <url-pattern>/servlet/AddEmployeeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetBranchChargeName</servlet-name>
+    <url-pattern>/servlet/GetBranchChargeName</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddBranchServlet</servlet-name>
+    <url-pattern>/servlet/AddBranchServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetBranchNameAndUserName</servlet-name>
+    <url-pattern>/servlet/GetBranchNameAndUserName</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddEducationServlet</servlet-name>
+    <url-pattern>/servlet/AddEducationServlet</url-pattern>
+  </servlet-mapping>
+
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+  
+    <filter>
+        <filter-name>LoginFilter</filter-name>
+        <filter-class>com.jason.filter.login.LoginFilter</filter-class>
+        <init-param>
+            <param-name>excludedPages</param-name>
+            <param-value>login.jsp,404.jsp,500.jsp</param-value>
+        </init-param>
+    </filter>
+<!--     <filter-mapping> -->
+<!--          <filter-name>LoginFilter</filter-name>  -->
+<!--         <url-pattern>*.jsp</url-pattern> -->
+<!--     </filter-mapping> -->
+    <error-page>
+        <error-code>404</error-code>
+        <location>/404.jsp</location>
+    </error-page>
+    <error-page>
+        <error-code>500</error-code>
+        <location>/500.jsp</location>
+    </error-page>
+    
+    <session-config>
+  		<session-timeout>30</session-timeout>
+	</session-config>
+	
+    <listener>
+        <listener-class>com.jason.listen.SessionListener</listener-class>
+    </listener>
+
+</web-app>
